@@ -1,0 +1,193 @@
+body {
+  font-family: Arial;
+  font-size: 13px;
+  color: #333;
+  background: #e7ecf4;
+}
+#header {
+  height: auto;
+  background: #222;
+}
+#logo,
+#search,
+#cart {
+  height: 60px;
+}
+#search {
+  padding-top: 10px;
+}
+#search input {
+  width: 280px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 13px;
+  border-radius: 3px 0 0 3px;
+  border: none;
+}
+#search button {
+  font-size: 13px;
+  height: 30px;
+  color: #fff;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  background: #eb1f27;
+}
+#cart a,
+#cart span {
+  color: #fff;
+  text-transform: capitalize;
+}
+#cart {
+  padding-top: 10px;
+  text-align: right;
+}
+#cart span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 100%;
+  background: #eb1f27;
+}
+
+#body #menu {
+  height: auto;
+}
+#menu ul {
+  overflow: hidden;
+  background: #eb1f27;
+  padding: 0;
+}
+.menu-item {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  list-style: none;
+  padding: 0 15px;
+  border-right: 1px solid #c60a11;
+}
+.menu-item:hover {
+  background: #c60a11;
+  cursor: pointer;
+}
+.menu-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.banner-item {
+  margin-bottom: 10px;
+}
+.products h3 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.product-item {
+  padding: 5px;
+  text-align: center;
+}
+.product-item-inner {
+  padding: 10px;
+}
+.product-item-inner img {
+  width: 130px;
+  height: 160px;
+  margin-bottom: 10px;
+}
+.product-item-inner h4 {
+  font-size: 13px;
+  font-weight: bold;
+}
+.product-item-inner h4 a {
+  color: #333;
+}
+.product-item-inner p {
+  text-transform: capitalize;
+}
+.product-item-inner p span {
+  color: #eb1f27;
+  font-weight: bold;
+}
+.product-list {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+#footer-t {
+  background: #fff;
+  margin-top: 30px;
+}
+#logo-f,
+#address,
+#services,
+#hotline {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#logo-f p {
+  font-size: 13px;
+  text-align: justify;
+}
+#address h3,
+#services h3,
+#hotline h3 {
+  font-size: 18px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 20px;
+}
+#address p,
+#services p,
+#hotline p {
+  font-size: 13px;
+}
+
+#footer-b {
+  background-color: #1d1e24;
+  padding: 13px 0;
+}
+#footer-b p {
+  color: #a1b1bc;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  #banner {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  #cart {
+    text-align: left;
+  }
+  #slider {
+    display: none;
+  }
+  .menu-item {
+    float: none;
+    border: none;
+    border-bottom: 1px solid #c60a11;
+  }
+  #logo h1 {
+    float: left;
+  }
+  #logo button {
+    float: right;
+    margin-top: 10px;
+    background: #fff;
+  }
+}
+@media (min-width: 768px) {
+  #menu {
+    display: block;
+  }
+  /* them vao cho chac  */
+  #logo button {
+    display: none;
+  }
+}
+
+/* de check xem co button ko thoi */
+#logo button {
+  background: #fff;
+}
